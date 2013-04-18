@@ -65,7 +65,7 @@ module.exports = function(grunt) {
     },
     watch: {
       files: 'src/**/*',
-      tasks: ['uglify:dev', 'cssmin:dev', 'copy:main']
+      tasks: ['uglify:dev', 'cssmin:dev', 'copy:dev']
     }, 
     clean: {
       dev: {
